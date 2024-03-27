@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &numero);
     
     originalNumero = numero;
-    
+
     while (numero != 0) {
         resto = numero % 10;
         numeroReverso = numeroReverso * 10 + resto;
